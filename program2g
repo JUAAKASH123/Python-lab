@@ -1,0 +1,10 @@
+list=[]
+for i in range(0,5):
+    n=int(input("enter an integer:"))
+    list.append(n)
+print(list)
+lst2=[]
+for i in list:
+    if(i%2!=0):
+        lst2.append(i)
+print("After removing even numbers",lst2)
