@@ -1,0 +1,7 @@
+list=[]
+for i in range(0,5):
+    n=int(input("Enter the element:"))
+    list.append(n)
+print("The list is:",list)
+list=[i for i in list if i>0]
+print(list) 
