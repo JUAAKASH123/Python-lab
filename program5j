@@ -1,0 +1,4 @@
+dict1={"key1":1,"Value1":"a","Key2":2,"value2":"b","key3":3,"value3":"c"}
+dict2={"key4":4,"value4":"d","key5":5,"value5":"e","key6":6,"value6":"f"}
+dict1.update(dict2)
+print(dict1)
