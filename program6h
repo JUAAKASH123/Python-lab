@@ -1,0 +1,7 @@
+lst=["Apple","orange","strawberry"]
+lw=len(lst[0])
+for i in lst:
+    curr=len(i)
+    if curr>lw:
+        lw=curr
+print("Length of the longest word is:",lw)
