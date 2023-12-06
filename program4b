@@ -1,0 +1,7 @@
+ist=[]
+for i in range(0,5):
+    n=int(input("Enter the element:"))
+    list.append(n)
+print("The list is:",list)
+list=[i*i for i in list ]
+print(list)
