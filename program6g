@@ -1,0 +1,6 @@
+str=input("Enter the string:")
+if str.endswith("ing"):
+    new_str=str+"ly"
+else:
+    new_str=str+"ing"
+print(new_str)
