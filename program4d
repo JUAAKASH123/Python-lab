@@ -1,0 +1,3 @@
+word=input("Enter the word")
+ord_values=[ord(i) for i in word]
+print("The ordinary values are",ord_values)
