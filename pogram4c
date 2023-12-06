@@ -1,4 +1,0 @@
-vowel=['a','e','i','o','u','A','E','I','O','U']
-word=input("Enter the word:")
-vowel=[i for i in word if i in vowel]
-print("vowels in word:",vowel)
