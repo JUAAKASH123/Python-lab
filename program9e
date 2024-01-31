@@ -1,0 +1,22 @@
+class publisher:
+    def __init__(self,name):
+        self.name=name
+class book:
+    def __init__(self,name,title,author):
+        publisher.__init__(self,name)
+        self.title=title
+        self.author=author
+class python:
+    def __init__(self,name,title,author,price,no_of_pages):
+        book.__init__(self,name,title,author)
+        self.price=price
+        self.no_of_pages=no_of_pages
+    def display(self):
+        print("Publisher",self.name)
+        print("title",self.title)
+        print("author",self.author)
+        print("price",self.price)
+        print("no of pages",self.no_of_pages)
+book=python("Franklin","python","john",1200,234)
+book.display()
+        
