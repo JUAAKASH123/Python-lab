@@ -1,0 +1,19 @@
+class rectangle:
+    def __init__(self,length,width):
+        self.__length=length
+        self.__width=width
+        
+    def area(self):
+        return self.__length*self.__width
+        
+    def compare(self,other):
+        if(self.area()<other.area()):
+            return "area of secnd is greater"
+        else:
+            return "area of first is graeter"
+
+rect1=rectangle(5,6)
+rect2=rectangle(12,16)
+print(rec1.area())
+print(rect2.area())
+print(rect1.compare(rect2))
