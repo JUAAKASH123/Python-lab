@@ -1,0 +1,19 @@
+class bank:
+    def __init__ (self,acc_num,acc_name,acc_type,acc_bala):
+        self.acc_num=acc_num
+        self.acc_name=acc_name
+        self.acc_type=acc_type
+        self.acc_bala=acc_bala
+        
+    def deposit(self,amt):
+        self.acc_bala=self.acc_bala+amt
+        print("The amount",amt,"is deposited")
+        print("The current balance is",self.acc_bala)
+        
+    def withdraw(self,amt):
+        self.acc_bala=self.acc_bala-amt
+        print("the amount",amt,"is withdrawed")
+        print("the current balance is",self.acc_bala)
+account=bank(123,"Aakash","current",10000)
+account.deposit(1500)
+account.withdraw(1000)
